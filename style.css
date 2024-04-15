@@ -1,0 +1,43 @@
+html {
+    font-family: "Outfit", "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    
+    height: 100vh;
+}
+body {
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 320px;
+    height: auto;
+    text-align: center;
+    padding: 15px 2px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+img {
+    width: 290px;
+    height: auto;
+    border-radius: 10px;
+}
+h2{
+    font-weight: 700;
+    padding: 0 15px;
+}
+p{
+    color: hsl(220, 15%, 55%);
+    padding: 0 30px;
+}
+.attribution{
+    padding-bottom: 10px;
+}
